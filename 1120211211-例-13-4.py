@@ -1,0 +1,11 @@
+from tkinter import*
+root = Tk()
+lbred = Label(root, text="红",fg="red",relief=GROOVE)
+lbred.grid(column=2,row=0)
+lbgreen = Label(root, text="绿" ,fg="green",relief=GROOVE)
+lbgreen.grid(column=0,row=1)
+lbblcak = Label(root, text="黑",fg="black" ,relief=GROOVE)
+lbblcak.grid(column=1,row=1)
+lbblue = Label(root, text="蓝蓝",fg="blue",relief=GROOVE)
+lbblue.grid(column=1,columnspan=2,row=2)
+root.mainloop()

@@ -1,0 +1,11 @@
+import turtle
+turtle.setup(640,480,300,300)
+turtle.reset()
+turtle.pensize(5)
+turtle.goto(-100,100)
+turtle.color('red')
+turtle.fd(200)
+turtle.color('blue')
+turtle.bk(100)
+turtle.write('turtle绘图',move=True, font=(黑体,36,'italic'))
+turtle.done()
